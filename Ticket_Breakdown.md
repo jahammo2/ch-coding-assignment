@@ -1,4 +1,5 @@
 # Ticket Breakdown
+
 We are a staffing company whose primary purpose is to book Agents at Shifts posted by Facilities on our platform. We're working on a new feature which will generate reports for our client Facilities containing info on how many hours each Agent worked in a given quarter by summing up every Shift they worked. Currently, this is how the process works:
 
 - Data is saved in the database in the Facilities, Agents, and Shifts tables
@@ -16,3 +17,13 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+
+I actually created a Trello board for this:
+[https://trello.com/b/a3SF28eP/clipboard-health-ticket-breakdown](https://trello.com/b/a3SF28eP/clipboard-health-ticket-breakdown)
+
+Here's a video I made walking through it:
+<https://www.loom.com/share/0d57fd1129b04290a2d95f320052ac34>
+
+### Assumptions
+
+* There is a joins table between Facilities and Agents. I'd assume an agent can work at multiple facilities. We'll call the joins table `facility_agent`.
